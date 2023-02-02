@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIYODA</title>
+	<link rel="icon" type="text/css" href="images/kyd.jpg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="libraries/all.css">
+<!--	<link rel="stylesheet" type="text/css" href="libraries/bootstrap.css">-->
+	<script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="libraries/all.js"></script>
+	<script type="text/javascript" src="javascript/gallary.js"></script>
+	<script type="text/javascript" src="javascript/formvalidatio.js"></script>
+	<script>
+		var i = 0;//start point
+		var images = [];
+		var time = 1500;
+
+		//Image List
+		images[0] = 'images/slide1.jpg';
+		images[1] = 'images/slide2.jpg';
+		images[2] = 'images/slide3.jpg';
+		images[3] = 'images/slide4.jpg';
+		images[4] = 'images/slide5.jpg';
+		images[5] = 'images/slide6.jpg';
+		images[6] = 'images/slide7.jpg';
+		images[7] = 'images/slide8.jpg';
+		images[8] = 'images/slide9.jpg';
+		images[9] = 'images/slide10.jpg';
+		images[10] = 'images/slide11.jpg';
+		images[11] = 'images/slide12.jpg';
+		images[12] = 'images/slide13.jpg';
+
+		//Change Images
+		function changeImg(){
+			document.slide.src = images[i];
+
+			if (i < images.length - 1){
+				i++;
+			}
+			else{
+				i = 0;
+			}
+			setTimeout("changeImg()", time); 
+		}
+		window.onload = changeImg;
+	</script>
+</head>
+<body>
+	
+	<!--================ header ================-->
+		<header>
+			<img src="images/kiyoda.jpeg" class="headerimg">
+			<h1>KIRU YOURTH'S DEVELOPMENT ASSOCIATION</h1>
+                        <h3 style="margin-bottom: 0;">UNITED WE STAND</h3>
+		</header>
+
+		<!-- nav -->
+		<nav>
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#aboutus"><li>AboutUs</li></a>
+				<a href="#activities"><li>Activities</li></a>
+				<a href="#commities"><li>Commities</li></a>
+				<a href="#contactus"><li>ContactUs</li></a>
+				<a href="#gallery"><li>Gallery</li></a>
+				<a href="#login"><li>LogIn</li></a>
+				<a href="https://www.facebook.com/groups/567329989947039/"><li>News</li></a>
+			</ul>
+			<div class="handle">
+				Menu
+				<span class="toggle-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</div>
+		</nav>
+	
+	
+		<!--================ content1 ================-->
+	    <div class="content1">
+		    <h2><marquee>JAMB Extra Lesson is goin now</marquee></h2>
+		    <div class="sub_content1">
+			    KIYODA
+				<br>
+		        Established in 2010
+		    </div>
+	    </div>
+
+		<!--================ section ================-->
+		<section>
+			<p>
+				<big><b>Some Information about KIYODA</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+<!--			About Us-->
+			<p class="section">
+				<h1 id="aboutus">About Us</h1>
+			    <hr>
+				<big><b>Some Information about KIYODA </b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			   <p>
+				   <big><b>History</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			   </p>
+			   <p>
+				   <big><b>Location</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			   </p>
+			<div class="sidebar">
+				<div class="sideleft">
+					<h2>Vission</h2>
+					<hr>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+				</div>
+				<div class="sideright">
+					<h2>Mission</h2>
+					<hr>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+				</div>
+			</div>
+			</p>
+			
+<!--	Our Activities-->
+			<p class="section">
+				<h1 id="activities">Our Activities</h1>
+	            <hr>
+				<big><b>Some Text</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+	        <div class="sidebar">
+				<div class="sideleft" style="background: url(images/annaul%20festival1.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/annaul%20festival2.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+	
+	        <div class="sidebar">
+				<div class="sideleft" style="background: url(images/annaul%20festival3.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/annaul%20festival4.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+	
+	       <div class="sidebar">
+				<div class="sideleft" style="background: url(images/activities1.JPG);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/activities2.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+	        
+			</p>
+			
+<!--	Our Commities-->
+			<p class="section">
+				<h1 id="commities">Our Commities</h1>
+		        <hr>
+				<big><b>Some Text</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	        <h2>Education Commity</h2>
+	        <div class="sidebar">
+				<div class="sideleft" style="background: url(images/edu1.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/edu2.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+	        <div class="sidebar">
+				<div class="sideleft" style="background: url(images/edu3.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/edu4.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+	
+	        <h2>Sport Commity</h2>
+	        <div class="sidebar">
+				<div class="sideleft" style="background: url(images/sport1.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+				<div class="sideright"  style="background: url(images/sport2.jpg);background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+				</div>
+			</div>
+
+			</p>
+
+<!--News-->
+<!--
+			<p class="section">
+				<h1 id="news">News</h1>
+				<big><b>Current News</b></big> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+-->
+
+<!--Gallery-->
+			<p class="section">
+				<h1 id="gallery">Gallery</h1>
+	            <hr>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <img src="" name="slide" width="100%" height="500">
+			</p>
+
+<!--LogIn-->
+			<p class="section">
+				<h1 id="login">LogIn</h1>
+	            <hr>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+            <p class="section">
+		<form class="loginform" name="loginform" onsubmit="return loginform()" method="post" action="mailto:aliyur47@gmail.com">
+			<h2>LogIn</h2>
+			<p class="forminput">
+				<label for="email">Email</label>
+			    <input type="text" name="logemail" id="email" placeholder="Your Email">
+			</p>
+			<p class="forminput">
+				<label for="PassWord">PassWord</label>
+			    <input type="password" name="logPassWord" id="PassWord" placeholder="PassWord">
+			</p>
+			<p class="forminput">
+				<input type="submit" name="submit" id="submit" value="Log In">
+			</p>
+			<a href="#">Register</a><a href="#" style="float: right">Forgot PassWord</a>
+	    </form>
+			</p>
+
+<!--Contact Us-->
+			<p class="section">
+				<h1 id="contactus">Contact Us</h1>
+	            <hr>
+				<big><big><b>LOCATION</b></big></big>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    <!--================ Contact form =====================-->
+	<form class="contactform" name="contactform" onsubmit="return contactform()" method="post" action="mailto:aliyur47@gmail.com">
+		<div class="formleft">
+			<p class="forminput">
+				<label for="yname">Name</label>
+			    <input type="text" name="yname" id="yname" placeholder="Your Name">
+			</p>
+			<p class="forminput">
+				<label for="email">Email</label>
+			    <input type="text" name="email" id="email" placeholder="Your Email">
+			</p>
+			<p class="forminput">
+				<label for="pnum">Phone Number</label>
+			    <input type="number" name="pnum" id="pnum" placeholder="Phone Number">
+			</p>
+			<p class="forminput">
+				<label for="subject">Subject</label>
+			    <input type="text" name="subject" id="subject" placeholder="Subject">
+			</p>
+		</div>
+		<div class="formrigth">
+			<p class="forminput">
+				<label for="message">Message</label>
+			    <textarea type="text" name="message" id="message" placeholder="Message"></textarea>
+				<input type="submit" name="submit" id="submit" value="Submit">
+			</p>
+		</div>
+	</form>
+			</p>
+
+		</section>
+
+<!--================ contactus ================-->
+	<div class="contact">
+		<table width="100%" height=""cellpadding="20vw" bgcolor="" style="padding-left: 15%; padding-right: 15%; ">
+			<h1 style="padding-top: 1vw">Contact us at</h1>
+<!--			<hr>-->
+						<tr>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fa fa-phone"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fa-brands fa-facebook-square"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fa-brands fa-whatsapp"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fab fa-telegram-plane"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fa-brands fa-twitter"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#fff" size="+2">
+									<a href="">
+										<i class="fab fa-vimeo"></i>
+									</a>
+								</font>
+							</td>
+							<td align="center" valign="top">
+								<font color="#000" size="+2"> 
+									<a href="">
+										<i class="fa fa-cloud-download"></i>
+									</a>
+								</font>
+							</td>
+						</tr>
+					</table>		
+                </div>
+
+	    <!--================ footer ================-->
+		<footer>
+			&copy; 2023 KIYODA
+			<hr>
+			<span>All rights reserved</span>
+		</footer>
+
+</body>
+</html>

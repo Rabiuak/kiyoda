@@ -1,0 +1,408 @@
+	body{
+					margin: 0;
+					padding: 0;
+					font-family: sans-serif;
+				}
+
+				/*================ header ================*/
+				header{
+					background-color: #00795f;
+					width: 100%;
+					padding: 10px 0;
+					color: #fff;
+					text-align: center;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 120%;
+				}
+				.headerimg{
+					border-radius: 15%; 
+					float: left; 
+					width: 120px;
+					height: 95px;
+					margin-left: 10%;
+				}
+			   header h1{
+				   margin-top: 0;
+				}
+			  header h3{
+					   margin-bottom: 0;
+					}
+				nav ul{
+					background-color: #43a286;
+					overflow: hidden;
+					color: #fff;
+					padding: 0;
+					text-align: center;
+					font-weight: 600;
+					margin: 0;
+					-webkit-transition: max-height 0.4s;
+					-ms-transition: max-height 0.4s;
+					-moz-transition: max-height 0.4s;
+					-o-transition: max-height 0.4s;
+					transition: max-height 0.4s;
+				}
+				nav ul a{
+					text-decoration: none;
+					color: inherit;
+				}
+				nav ul li{
+					display: inline-block;
+					padding: 20px;
+				}
+				nav ul li:hover{
+					background-color: #399077;
+				}
+				.handle{
+					width: 100%;
+					background-color: #005c48;
+					text-align: left;
+					box-sizing: border-box;
+					padding: 15px 10px;
+					cursor: pointer;
+					font-size: 25px;
+					font-weight: 600;
+					color: #fff;
+					display: none;
+				}
+				.toggle-btn{
+					float: right;
+				}
+				.toggle-btn span{
+					width: 35px;
+					height: 4.5px;
+					background-color: #fff;
+					margin-bottom: 5px;
+					border-radius: 5px;
+					display: block;
+				}
+
+
+		/*===================== content1 =====================*/
+		.content1{
+			/*border: 1px solid red;*/
+			width: 100%;
+			height: 600px;
+			background:url(../images/kiyoda.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100% 100%;
+			overflow: hidden;
+			text-align: center;
+			border-radius: 0.1vw;
+			animation: slide 20.5s infinite;
+			box-shadow: 2px 2px 7px;
+		}
+		@keyframes slide{
+					25%{
+					   background: url("../images/image1.jpeg");
+					   background-repeat: no-repeat;
+					   background-position: center;
+					   background-size: 100% 100%;
+				   }
+				   50%{
+					   background: url("../images/image2.jpg");
+					   background-repeat: no-repeat;
+					   background-position: center;
+					   background-size: 100% 100%;
+				}
+				75%{
+					   background: url("../images/image3.jpeg");
+					   background-repeat: no-repeat;
+					   background-position: center;
+					   background-size: 100% 100%;
+				}
+				100%{
+					   background: url("../images/image4.jpg");
+					   background-repeat: no-repeat;
+					   background-position: center;
+					   background-size: 100% 100%;
+				}
+			   }
+			.content1 h2{
+				/* background-color: #fff; */
+				opacity: 0.9;
+				width:80%;
+				font-size: 300%;
+				margin: 3vw auto 250px auto;
+				border-radius: 1em;
+				color: #023b2f;
+				font-family: cursive;
+				font-weight: 600;
+			}
+			.sub_content1{
+				background-color: #00795f;
+				opacity: 0.8;
+				color: #fff;
+				font-weight: 600;
+				font-family: 'Times New Roman', Times, serif;
+				width: 40%;
+				padding: 7px;
+				float: right;
+				border-radius: 2vw 0 0 2vw;
+				font-size: 150%;
+			}
+
+					/* section */
+					section{
+						line-height: 1.5em;
+						font-size: 1.2em;
+						padding: 40px;
+						width: 75%;
+						margin: 0 auto;
+						text-align: justify;
+					}
+                    .section{
+						margin-top: 5em;
+}
+					section h1{
+						color: #005c48;
+						text-align: center;
+						font-size: 225%
+					}
+/*About Us*/
+.sidebar{
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+}
+.sidebar h2{
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 200%;
+}
+.sidebar hr{
+	width: 90%;
+	margin: 0.4em auto;
+}
+.sideleft{
+	width: 48%;
+	height: 350px;
+	float: left;
+	margin-top: 1.5rem;
+	border-radius: 0.2rem;
+}
+.sideright{
+	width: 48%;
+	height: 350px;
+	float: right;
+	margin-top: 1.5rem;
+	border-radius: 0.2rem;
+}
+/*
+.sidebarimg{
+	width: 500px; 
+	height: 350px; 
+	border-radius: 4px;
+}
+*/
+
+/*================ loginform =====================*/
+.loginform {
+	        width: 50%;
+			margin: 0  auto;
+			padding: 1% 8%;
+			box-shadow: 1px 7px 30px -15px;
+			overflow: hidden;
+			border-radius: 0.4vw;
+			text-align: justify;
+}
+
+/*================ loginformContact form =====================*/
+		.contactform{
+			width: 94%;
+			/*margin: 0 ;*/
+			padding: 1% 5%;
+			box-shadow: 1px 7px 30px -15px;
+			overflow: hidden;
+			border-radius: 0.2vw;
+			text-align: justify;
+		}
+		.formleft{
+			float: left;
+			width: 48%;
+		}
+		.formrigth{
+			float: right;
+			width: 48%;
+		}
+		.forminput label{
+			font-size: 1.2rem;
+			color: ;
+			display: none;
+		}
+		.forminput input{
+			width: 100%;
+			height: 2rem;
+			font-size: 1rem;
+			margin-top: 0;
+		}
+		.forminput textarea{
+			width: 98.2%;
+			height: 9rem;
+			font-size: 1.2rem;
+			letter-spacing: 0.1rem;
+		}
+		.forminput #submit{
+			height: 3rem;
+			background-color: #43a286;
+			color: #fff;
+			font-size: 1.5rem;
+			font-weight: 600;
+			padding: 0.2rem;
+			border: groove;
+		}
+		.forminput #submit:hover{
+			background-color: #005c48;
+		}
+	
+/*===================== contactus =====================*/
+.contact{
+	width: 100%;
+	background-color: #43a286;
+	border-radius: 0.2vw;
+	overflow: hidden;
+}
+.contact h1{
+    color: #fff;
+	font-size: 200%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-bottom:-0.5vw;
+	text-align: center;
+	font-weight: 600;
+}
+/*
+.contact hr{
+    color: #fff;
+	width: 65%;
+}
+*/
+.contact a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact a:hover{
+	color: #005c48;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+					/*===================== footer =====================*/
+					footer{
+						background-color: #00795f;
+						width: 100%;
+						padding: 15px 0 50px 0;
+						color: #fff;
+						text-align: center;
+						font-family: Arial, Helvetica, sans-serif;
+						font-size: 1.5em;
+					}
+		footer hr{
+			width: 80%; 
+			margin-top: 0.2em;
+	}
+footer span{
+		letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*================== Responsivenes ==================*/
+				@media screen and (max-width: 580px){
+
+					/* header */
+					nav ul{
+						max-height: 0;
+					}
+					.showing{
+						max-height: 20em;
+					}
+					nav ul li{
+						box-sizing: border-box;
+						width: 49%;
+						padding: 15px;
+						text-align: left;
+						border-bottom:1px solid #fff;
+						border-left:1px solid #fff;
+					}
+					.handle{
+						display: block;
+					}
+					.headerimg{
+						margin-top: 5px;
+						width: 40%;
+						height: 125px;
+						margin: 0 30%;
+					}
+					header h1{
+						display: inline-block;
+						font-size: 2rem;
+						letter-spacing: 0.15rem;
+						word-spacing: 0.25rem;
+					}
+					
+/*					content1*/
+					.content1{
+						height: 500px;
+					}
+					
+/*					Contactform*/
+				    .formleft, .formrigth{
+				        width: 100%;
+			        }
+					
+/*					sidebar*/
+					.sideleft, .sideright{
+						width: 100%;
+					}
+					.sidebarimg{
+	                 width: 100%; 
+/*
+	                 height: 350px; 
+	                 border-radius: 4px;
+*/
+                    }
+					
+/*					loginform*/
+					.loginform{
+						width: 90%;
+					}
+					
+
+				}
